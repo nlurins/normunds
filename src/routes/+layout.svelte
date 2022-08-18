@@ -4,4 +4,6 @@ import "../app.css";
 </script>
 
 
-<slot></slot>
+<div class="bg-gradient-to-r from-[#c0392b] to-[#8e44ad]">
+    <slot />
+</div>
