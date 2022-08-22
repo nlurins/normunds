@@ -1,3 +1,7 @@
+<script>
+	import Projects from "../components/Projects.svelte";
+</script>
+
 <svelte:head>
 	<title>Portfolio | N. Lurins</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,4 +18,9 @@
 		<h2><span class="font-normal">[ </span>FRONT-END <span class="font-normal"> ]</span></h2>
 		<h2 class="font-normal">...and more<span class="animate-pingcursor"> |</span></h2>
 	</div>
+	<div class="flex flex-col mx-auto justify-center items-center gap-10 mt-28">
+		<h1 class="text-5xl font-permanent text-white ">Projects..</h1>
+		<a href="#projects"><button type="button" class="h-20 w-20 rounded-full bg-white shadow-2xl">ss</button></a>
+	</div>
 </div>
+<Projects />
