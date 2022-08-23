@@ -5,9 +5,9 @@
 <div id="projects" class="container flex flex-col mx-auto pb-6 ">
 	<div
 		
-	class="container flex flex-col lg:flex-row bg-white text-black font-montserrat w-full h-[620px] shadow-xl"
+	class="container flex flex-col xl:flex-row bg-white text-black font-montserrat w-full h-[620px] shadow-xl"
 	>
-		<div class="w-[40%] p-10 flex flex-col items-center justify-between">
+		<div class="xl:w-[40%] p-10 flex flex-col items-center justify-between">
 			<div>
 				<h2 class="font-permanent text-6xl mb-20 text-center">Weather app</h2>
 				<p class="text-2xl">
@@ -39,7 +39,7 @@
 		class="container flex flex-col lg:flex-row bg-white text-black font-montserrat w-full h-[620px] my-10 shadow-xl"
 	>
 		<div class="bg-[url('https://normunds.vercel.app/partshop.png')] bg-cover w-[60%]" />
-		<div class="w-[40%] p-10 flex flex-col items-center justify-between">
+		<div class="xl:w-[40%] p-10 flex flex-col items-center justify-between">
 			<div>
 				<h2 class="font-permanent text-6xl mb-20 text-center">Car parts & more</h2>
 				<p class="text-2xl">
@@ -67,7 +67,7 @@
 	<div
 		class="container flex flex-col lg:flex-row bg-white text-black font-montserrat w-full h-[620px] shadow-xl"
 	>
-		<div class="w-[40%] p-10 flex flex-col items-center justify-between">
+		<div class="xl:w-[40%] p-10 flex flex-col items-center justify-between">
 			<div>
 				<h2 class="font-permanent text-6xl mb-20 text-center">Pokedex</h2>
 				<p class="text-2xl">
@@ -98,7 +98,7 @@
 		class="container flex flex-col lg:flex-row bg-white text-black font-montserrat w-full h-[620px] my-10 shadow-xl"
 	>
 		<div class="bg-[url('https://normunds.vercel.app/cv.png')] bg-cover w-[60%]" />
-		<div class="w-[40%] p-10 flex flex-col items-center justify-between">
+		<div class="xl:w-[40%] p-10 flex flex-col items-center justify-between">
 			<div>
 				<h2 class="font-permanent text-6xl mb-20 text-center">CV Builder app</h2>
 				<p class="text-2xl">
