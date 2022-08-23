@@ -11,6 +11,11 @@ const config = {
 		  postcss: true,
 		}),
 	  ],
+	  vitePlugin: {
+		experimental: {
+		  useVitePreprocess: true
+		}
+	  }
 };
 
 export default config;
