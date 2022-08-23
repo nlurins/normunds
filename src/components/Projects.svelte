@@ -32,13 +32,13 @@
 				>
 			</div>
 		</div>
-		<div class="bg-[url('weather.png')] bg-cover w-[60%]" />
+		<div class="bg-[url('./weather.png')] bg-cover w-[60%]" />
 	</div>
 
 	<div
 		class="container flex flex-col lg:flex-row bg-white text-black font-montserrat w-full h-[620px] my-10 shadow-xl"
 	>
-		<div class="bg-[url('partshop.png')] bg-cover w-[60%]" />
+		<div class="bg-[url('./partshop.png')] bg-cover w-[60%]" />
 		<div class="w-[40%] p-10 flex flex-col items-center justify-between">
 			<div>
 				<h2 class="font-permanent text-6xl mb-20 text-center">Car parts & more</h2>
@@ -91,13 +91,13 @@
 				>
 			</div>
 		</div>
-		<div class="bg-[url('pokedex.png')] bg-cover w-[60%]" />
+		<div class="bg-[url('./pokedex.png')] bg-cover w-[60%]" />
 	</div>
 
 	<div
 		class="container flex flex-col lg:flex-row bg-white text-black font-montserrat w-full h-[620px] my-10 shadow-xl"
 	>
-		<div class="bg-[url('cv.png')] bg-cover w-[60%]" />
+		<div class="bg-[url('./cv.png')] bg-cover w-[60%]" />
 		<div class="w-[40%] p-10 flex flex-col items-center justify-between">
 			<div>
 				<h2 class="font-permanent text-6xl mb-20 text-center">CV Builder app</h2>
