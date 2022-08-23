@@ -1,6 +1,11 @@
+<script>
+	import { fly, fade } from 'svelte/transition'
+</script>
+
 <div id="projects" class="container flex flex-col mx-auto pb-6 ">
 	<div
-		class="container flex flex-col lg:flex-row bg-white text-black font-montserrat w-full h-[620px] shadow-xl"
+		
+	class="container flex flex-col lg:flex-row bg-white text-black font-montserrat w-full h-[620px] shadow-xl"
 	>
 		<div class="w-[40%] p-10 flex flex-col items-center justify-between">
 			<div>

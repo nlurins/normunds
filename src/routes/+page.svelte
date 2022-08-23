@@ -1,6 +1,7 @@
 <script>
 	import Footer from '../components/Footer.svelte';
 	import Projects from '../components/Projects.svelte';
+	import { fade, fly } from 'svelte/transition'
 </script>
 
 <svelte:head>
@@ -13,7 +14,7 @@
 	/>
 </svelte:head>
 
-<div class="flex flex-col hero container min-h-screen max-w-screen lg:py-20 mx-auto text-center">
+<div in:fade class="flex flex-col hero container min-h-screen max-w-screen lg:py-20 mx-auto text-center">
 	<h1 class="text-9xl text-white font-permanent">Normunds Lūriņš</h1>
 	<div class="font-montserrat font-thin text-white text-9xl pt-24 text-center tracking-tighter">
 		<h2><span class="font-normal">[ </span>FRONT-END <span class="font-normal"> ]</span></h2>
@@ -23,8 +24,9 @@
 		<h1 class="text-5xl font-permanent text-white ">Projects..</h1>
 		<a href="#projects"
 			><button
+				transition:fade
 				type="button"
-				class="animate-bounce h-20 w-20 rounded-full bg-white shadow-2xl hover:bg-blue-100"
+				class=" h-20 w-20 rounded-full bg-white shadow-2xl hover:bg-blue-100"
 				><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
 					><defs
 						><style>
