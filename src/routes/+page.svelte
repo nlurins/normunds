@@ -14,14 +14,14 @@
 	/>
 </svelte:head>
 
-<div in:fade class="flex flex-col hero container min-h-screen max-w-screen lg:py-20 mx-auto text-center">
-	<h1 class="text-9xl text-white font-permanent">Normunds Lūriņš</h1>
-	<div class="font-montserrat font-thin text-white text-9xl pt-24 text-center tracking-tighter">
+<div class="flex flex-col hero container min-h-screen max-w-screen py-20 mx-auto text-center px-5 xl:px-0">
+	<h1 class="text-6xl xl:text-9xl text-white font-permanent">Normunds Lūriņš</h1>
+	<div class="font-montserrat font-thin text-white text-6xl pt-24 text-center tracking-tighter xl:text-9xl">
 		<h2><span class="font-normal">[ </span>FRONT-END <span class="font-normal"> ]</span></h2>
 		<h2 class="font-normal">...and more<span class="animate-pingcursor"> |</span></h2>
 	</div>
 	<div class="flex flex-col mx-auto justify-center items-center gap-10 mt-28">
-		<h1 class="text-5xl font-permanent text-white ">Projects..</h1>
+		<h1 class="text-3xl xl:text-5xl font-permanent text-white ">Projects..</h1>
 		<a href="#projects"
 			><button
 				transition:fade
