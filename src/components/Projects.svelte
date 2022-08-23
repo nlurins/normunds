@@ -10,7 +10,7 @@
 		<div class="xl:w-[40%] p-10 flex flex-col items-center justify-between">
 			<div>
 				<h2 class="font-permanent text-6xl mb-20 text-center">Weather app</h2>
-				<p class="text-2xl">
+				<p class="lg:text-2xl text-xl">
 					"A simple weather app I made to use a home page for my web browser, I looked towards a
 					pleasing aesthetic as well as simple functionality, in this case I used openweathermap API
 					to get data and load basic weather information, this app accepts a search value of a city
@@ -42,7 +42,7 @@
 		<div class="xl:w-[40%] p-10 flex flex-col items-center justify-between">
 			<div>
 				<h2 class="font-permanent text-6xl mb-20 text-center">Car parts & more</h2>
-				<p class="text-2xl">
+				<p class="lg:text-2xl text-xl">
 					"Built in React, a somewhat complete e-commerce website with mock products, products in
 					this case sent in as json objects, functionality includes working cart, product filtering,
 					instock/ out of stock filtering e.t.c. Technologies used: React, Next.js, Tailwind"
@@ -70,7 +70,7 @@
 		<div class="xl:w-[40%] p-10 flex flex-col items-center justify-between">
 			<div>
 				<h2 class="font-permanent text-6xl mb-20 text-center">Pokedex</h2>
-				<p class="text-2xl">
+				<p class="lg:text-2xl text-xl">
 					"A pokemon database using the Pokemon API to load info about pokemon, in this case using
 					dynamic routing provided by SvelteKIT to generate an individual page for each pokemon
 					containing extra information. Technologies used: SvelteKIT, Tailwind"
@@ -101,7 +101,7 @@
 		<div class="xl:w-[40%] p-10 flex flex-col items-center justify-between">
 			<div>
 				<h2 class="font-permanent text-6xl mb-20 text-center">CV Builder app</h2>
-				<p class="text-2xl">
+				<p class="lg:text-2xl text-xl">
 					"A CV builder in React - accepts personal data in one page and generates a CV with the
 					provided data according to a template made by me in another page, made in a way to accept
 					other entries in the future and or other templates for CV design. Technologies used:
